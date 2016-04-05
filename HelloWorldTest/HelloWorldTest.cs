@@ -8,8 +8,8 @@ namespace HelloWorldTest
     [TestClass]
     public class HelloWorldTest
     {
-        [TestInitialize]
-        public void InitializeTest()
+        [TestCleanup]
+        public void CleanUpTest()
         {
             // put back console output to default state
             StreamWriter standardOut = new StreamWriter(Console.OpenStandardOutput());

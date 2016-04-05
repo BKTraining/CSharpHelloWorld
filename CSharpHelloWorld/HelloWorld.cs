@@ -8,7 +8,7 @@ namespace CSharpHelloWorld
 {
     public class HelloWorld
     {
-        public const string message = "Hello World";
+        private const string message = "Hello World";
 
         public void sayHello()
         {
